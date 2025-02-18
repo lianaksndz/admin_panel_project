@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Уляна Ксьондз",
+        "email": "uliana.ksiondz@gmail.com",
+        "password": "scrypt:32768:8:1$k4WZ74bzff2ufbI7$cb10d03facfbb04a793f3041f55c15a8eaba38208614b590f3e2a7cb74cc56ddaa173c2d8dd1285009843282f6e72ad382817b9a22c60cfd3f520e0670bdc994",
+        "phone": "0963960736",
+        "dob": "2005-05-29",
+        "gender": "female",
+        "country": "Україна",
+        "agreement": true
+    },
+    {
+        "id": 2,
+        "name": "Андрій Шевченко",
+        "email": "andrey.shevchenko@gmail.com",
+        "password": "scrypt:32768:8:1$Gn0TMFX84z7gWFuM$e8d4c8f33c8e2bed55b161e037b8f9bcaac5efe70e848865a07e9824cee65a1cd9e476db2670893dbd739c36969a91594d3d965f5edc0453f67ba0cff0b861e8",
+        "phone": "0973947812",
+        "dob": "1976-09-29",
+        "gender": "male",
+        "country": "Україна",
+        "agreement": true
+    },
+    {
+        "id": 3,
+        "name": "Аліша Дебнем-Кері",
+        "email": "jasminthe100@gmail.com",
+        "password": "scrypt:32768:8:1$JsJm6hPlUqy7ivjb$59e7232ab3b8a4388aff0318fa8cb695f5597b157f3f2d4410e67c3a450a6b6071954422af80b01137e1c0310e50e60d0f480d19869bf3acd50b2446585940d2",
+        "phone": "0963992736",
+        "dob": "1993-07-20",
+        "gender": "female",
+        "country": "Німеччина",
+        "agreement": true
+    }
+]
