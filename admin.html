@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація клієнта</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h2>Форма реєстрації клієнта</h2>
+    <p id="message"></p>
+    <form id="registration-form">
+        <label>Ім'я та Прізвище: <input type="text" id="name" required></label><br>
+        <label>Email: <input type="email" id="email" required></label><br>
+        <label>Пароль: <input type="password" id="password" required></label><br>
+        <label>Телефон: <input type="tel" id="phone" required></label><br>
+        <label>Дата народження: <input type="date" id="dob" required></label><br>
+        <label>Стать:
+            <input type="radio" name="gender" value="male"> Чоловіча
+            <input type="radio" name="gender" value="female"> Жіноча
+        </label><br>
+        <label>Країна: <select id="country"><br>
+                <option value="Україна">Україна</option>
+                <option value="Польща">Польща</option>
+                <option value="Німеччина">Німеччина</option>
+            </select></label><br>
+        <label><input type="checkbox" id="agreement"> Погоджуюся з обробкою даних</label><br>
+        <label>Фото профілю: <input type="file" id="photo"></label><br>
+        <button type="submit">Зареєструватися</button><br>
+    </form>
+
+    <h2>Панель адміністратора</h2>
+    <div id="admin-panel"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
